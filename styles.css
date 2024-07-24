@@ -1,0 +1,84 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background-image: url("/images/background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffee93;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 3px black;
+}
+
+#imgProfile {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #08415c;
+    margin-bottom: 10px;
+}
+
+#date {
+    margin: 0;
+    background: #08415c;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bird-section {
+    margin-top: 50px;
+}
+
+.bird-title {
+    margin-bottom: 10px;
+}
+
+.bird-hint {
+    margin-top: 0;
+}
+
+.bird-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/cover.jpg");
+    background-size: cover;
+}
+
+#bird-imgCardinal:hover {
+    background-image: url("images/Cardinal.jpg");
+}
+
+#bird-imgHoatzin:hover {
+    background-image: url("images/Hoatzin.jpg");
+}
+
+#bird-imgSparrow:hover {
+    background-image: url("images/Sparrow.jpg");
+}
+
+#bird-imgBearedVulture:hover {
+    background-image: url("images/BeardedVulture.jpg");
+}
+
+#bird-imgLark:hover {
+    background-image: url("images/Lark.jpg");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: #ffee93;
+}
